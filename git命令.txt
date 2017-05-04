@@ -29,6 +29,11 @@ git  clone
 
 
 git config --global credential.helper store  长期存储密码：
+
+设置git用户名／邮箱
+
+git config --global user.name [username]
+git config --global user.email [email]
 1
 1
 然后Git pull一次，输入一次用户名密码就会自动保存该用户名密码；
