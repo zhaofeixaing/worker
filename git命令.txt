@@ -26,6 +26,16 @@ $ git pull origin master   //更新
 
 git  clone
 
+
+
+git config --global credential.helper store
+1
+1
+然后Git pull一次，输入一次用户名密码就会自动保存该用户名密码；
+
+查看配置的用户信息：
+
+git config --list
 ================================================================================
 *http://www.108js.com/article/article3/30079.html?id=397*********
 *
